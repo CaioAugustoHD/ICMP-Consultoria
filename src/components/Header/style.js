@@ -8,6 +8,7 @@ export const HeaderStyled = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: ${({theme}) => theme.body};
 `;
 
 export const Menu = styled.nav`
