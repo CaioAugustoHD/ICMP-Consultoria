@@ -13,10 +13,11 @@ export const BannerStyled = styled.main`
 
 export const TextBannerContainer = styled.div`
     color: #FFF;
+    padding-right: 1em;
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 `;
 
@@ -36,9 +37,26 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h2`
     max-width: 600px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 `;
 
-export const ImgBanner = styled.img`
-    height: 500px;
+
+export const BotaoBanner = styled.button`
+    border: none;
+    font-size: 1.2em;
+    margin-top: 2em;
+    background-color: ${({theme}) => theme.red};
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 17px;
 `;
+
+export const ImgContainer = styled.figure`
+    width: 50%;
+    display: flex;
+`;    
+
+export const ImgBanner = styled.img`
+        height: 500px;
+        margin: auto;
+    `;
