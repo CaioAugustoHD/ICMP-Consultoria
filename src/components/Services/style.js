@@ -7,6 +7,7 @@ export const ServicesStyled = styled.section`
 
 export const Title = styled.h3`
     text-align: center;
+    margin: 2em 0 1em;
 `;
 
 export const Text = styled.p`
