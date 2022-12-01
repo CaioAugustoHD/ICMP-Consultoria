@@ -7,6 +7,7 @@ import { defaultTheme } from "./styles/theme/default";
 import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
 import { Services } from "./components/Services";
+import { Partners } from "./components/Partners";
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
       <Header/>
       <Banner/>
       <Services/>
+      <Partners/>
     </ThemeProvider>
   )
 }
