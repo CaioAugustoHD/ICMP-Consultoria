@@ -8,6 +8,7 @@ import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
 import { Services } from "./components/Services";
 import { Partners } from "./components/Partners";
+import { Customers } from "./components/Customers";
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
       <Banner/>
       <Services/>
       <Partners/>
+      <Customers/>
     </ThemeProvider>
   )
 }
