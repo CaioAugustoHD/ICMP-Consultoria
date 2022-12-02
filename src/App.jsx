@@ -9,6 +9,7 @@ import { Banner } from "./components/Banner";
 import { Services } from "./components/Services";
 import { Partners } from "./components/Partners";
 import { Customers } from "./components/Customers";
+import { Contact } from "./components/Contact";
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
       <Services/>
       <Partners/>
       <Customers/>
+      <Contact/>
     </ThemeProvider>
   )
 }
