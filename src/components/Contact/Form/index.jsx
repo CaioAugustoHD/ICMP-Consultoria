@@ -1,5 +1,5 @@
 import React from "react";
-import { FormStyled, InputContainer, SelectContainer, TextareaContainer } from "./style";
+import { ButtonForm, FormStyled, InputContainer, SelectContainer, TextareaContainer } from "./style";
 
 export function Form(){
     return (
@@ -43,6 +43,8 @@ export function Form(){
             <TextareaContainer>
                 <textarea placeholder="Detalhes sobre sua solicitação..." rows="5"/>
             </TextareaContainer>
+
+            <ButtonForm type="submit">Enviar</ButtonForm>
 
         </FormStyled>
     )

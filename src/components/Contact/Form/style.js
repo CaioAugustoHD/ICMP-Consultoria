@@ -42,3 +42,14 @@ export const TextareaContainer = styled(SelectContainer)`
         min-height: 33px;
     }
 `;
+
+export const ButtonForm = styled.button`
+    margin: 1em auto 0;
+    width: 150px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 18px;
+    padding: 5px 0;
+    background-color: ${({theme}) => theme.red};
+    color: #FFF;
+`;
