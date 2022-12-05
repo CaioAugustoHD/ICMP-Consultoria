@@ -10,6 +10,7 @@ import { Services } from "./components/Services";
 import { Partners } from "./components/Partners";
 import { Customers } from "./components/Customers";
 import { Contact } from "./components/Contact";
+import { News } from "./components/News";
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
       <Partners/>
       <Customers/>
       <Contact/>
+      <News/>
     </ThemeProvider>
   )
 }

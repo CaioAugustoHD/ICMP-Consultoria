@@ -14,7 +14,7 @@ const schema = yup.object({
 
 export function Form(){
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm({
+    const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(schema)
       });
     const onSubmit = data => console.log(data);
