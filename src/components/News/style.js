@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const NewsStyled = styled.section`
-    padding: 2em 10%;
+    padding: 2em 10% 0.5em;
     text-align: center;
 `;
 
+export const FormNews = styled.form`
+    padding: 2em 0 3em;
+`;
+
 export const InputEmail = styled.input`
-    margin: 2em 0 0.7em 0;
     padding: 6px 13px;
     border-radius: 15px 0 0 15px;
     border: none;
@@ -28,7 +31,6 @@ export const ButtonNews = styled.button`
 `;
 
 export const TermsMessage = styled.div`
-    width: 400px;
     margin: auto;
 
 
@@ -36,4 +38,11 @@ export const TermsMessage = styled.div`
     font-size: 0.8em;
     line-height: 1.3em;
     }
+`;
+
+export const ErrorMessage = styled.span`
+    margin: 2.4em 0 0 8px;
+    color: ${({theme}) => theme.red};
+    position: absolute;
+    font-size: 0.9em;
 `;
