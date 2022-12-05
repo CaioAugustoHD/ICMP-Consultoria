@@ -11,7 +11,7 @@ export const InputContainer = styled.div`
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em 1.1em 1em;
 
     input, select, textarea {
         padding: 6px 13px;
@@ -34,13 +34,20 @@ export const SelectContainer = styled(InputContainer)`
 `;
 
 export const TextareaContainer = styled(SelectContainer)`
-    padding: 1em;
+    padding: 1.1em 1em;
 
     textarea {
         max-width: 100%;
         min-width: 100%;
         min-height: 33px;
     }
+`;
+
+export const ErrorMessage = styled.span`
+    margin: 4.2em 0 0 8px;
+    color: ${({theme}) => theme.red};
+    position: absolute;
+    font-size: 0.9em;
 `;
 
 export const ButtonForm = styled.button`
