@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
     background-color: ${({theme}) => theme.blue};
-    padding: 1em 10% 0.5em;
+    padding: 2em 10% 0.5em;
     color: #FFF;
     display: flex;
     flex-wrap: wrap;
