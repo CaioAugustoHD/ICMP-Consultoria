@@ -11,6 +11,7 @@ import { Partners } from "./components/Partners";
 import { Customers } from "./components/Customers";
 import { Contact } from "./components/Contact";
 import { News } from "./components/News";
+import { Footer } from "./components/Footer";
 
 export function App() {
   return (
@@ -23,6 +24,7 @@ export function App() {
       <Customers/>
       <Contact/>
       <News/>
+      <Footer/>
     </ThemeProvider>
   )
 }

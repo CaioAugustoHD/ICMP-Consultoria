@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NewsStyled = styled.section`
-    padding: 2em 10% 0.5em;
+    padding: 2em 10% 0.8em;
     text-align: center;
 `;
 
