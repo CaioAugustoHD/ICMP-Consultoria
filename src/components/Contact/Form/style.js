@@ -6,6 +6,10 @@ export const FormStyled = styled.form`
     max-width: 700px;
     margin: auto;
     justify-content: center;
+
+    @media (max-width: 425px){
+        justify-content: flex-start;
+    }
 `;
 
 export const InputContainer = styled.div`
@@ -19,7 +23,7 @@ export const InputContainer = styled.div`
         border-radius: 15px;
         border: none;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-        min-width: 300px;
+        min-width: 275px;
             
         :focus {
             outline: 1px solid #000;
@@ -32,6 +36,11 @@ export const InputContainer = styled.div`
 
     @media (max-width: 785px) {
         width: 80%;
+        padding: 0.5em 0 1em;
+    }
+
+    @media (max-width: 425px){
+        width: 98%
     }
 `;
 
@@ -40,6 +49,10 @@ export const SelectContainer = styled(InputContainer)`
 
     @media (max-width: 785px) {
         width: 80%;
+    }
+
+    @media (max-width: 425px){
+        width: 98%
     }
 `;
 
@@ -55,7 +68,12 @@ export const TextareaContainer = styled(SelectContainer)`
 
     @media (max-width: 785px) {
         max-width: 80%;
-        min-width: 300px;
+        min-width: 275px;
+        padding: 1.1em 0;
+    }
+
+    @media (max-width: 425px){
+        max-width: 98%
     }
 `;
 
