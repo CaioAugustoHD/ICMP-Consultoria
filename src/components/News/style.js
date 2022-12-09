@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const NewsStyled = styled.section`
     padding: 2em 10% 0.8em;
     text-align: center;
+
+    @media (max-width: 499px) {
+            padding: 2em 1em 0.8em;
+        }
 `;
 
 export const FormNews = styled.form`
@@ -15,10 +19,16 @@ export const InputEmail = styled.input`
     border: none;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
     width: 320px;
+    min-width: 275px;
 
     :focus {
         outline: 1px solid #000;
     }
+
+    @media (max-width: 499px) {
+            border-radius: 15px;
+            width: 100%;
+        }
 `;
 
 export const ButtonNews = styled.button`
@@ -28,6 +38,12 @@ export const ButtonNews = styled.button`
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
     background-color: ${({theme}) => theme.red};
     color: #fff;
+
+        @media (max-width: 499px) {
+            margin-top: 2em;
+            border-radius: 15px;
+            width: 100px;
+        }
 `;
 
 export const TermsMessage = styled.div`
