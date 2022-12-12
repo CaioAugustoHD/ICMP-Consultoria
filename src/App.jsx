@@ -6,7 +6,7 @@ import { defaultTheme } from "./styles/theme/default";
 
 import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
-import { Services } from "./components/Services";
+import { Services } from "./components/ContractedServices";
 import { Partners } from "./components/Partners";
 import { Customers } from "./components/Customers";
 import { Contact } from "./components/Contact";
