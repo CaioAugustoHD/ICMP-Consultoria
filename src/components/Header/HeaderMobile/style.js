@@ -8,6 +8,7 @@ export const HeaderStyled = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
+    min-width: 276px;
     background-color: ${({theme}) => theme.body};
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 
@@ -16,6 +17,17 @@ export const HeaderStyled = styled.header`
         height: 30px;
         color: ${({theme}) => theme.blue};
         cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+        svg {
+            height: 25px;
+            width: 25px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        padding: 1em;
     }
 `;
 

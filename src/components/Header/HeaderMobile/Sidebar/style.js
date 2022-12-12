@@ -5,7 +5,7 @@ export const SidebarStyled = styled.div`
     top: 0;
     right: 0;
     height: 100%;
-    width: 300px;
+    width: 200px;
     background-color: ${({theme}) => theme.body};
     animation: showSidebar .4s;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -20,6 +20,12 @@ export const SidebarStyled = styled.div`
         cursor: pointer;
     }
 
+    @media (max-width: 500px) {
+        svg {
+            right: 1em
+        }
+    }
+
     @keyframes showSidebar {
     from {
       opacity: 0;
@@ -27,8 +33,30 @@ export const SidebarStyled = styled.div`
     }
     to {
       opacity: 1;
-      width: 300px;
+      width: 200px;
     }
   }
+`;
+
+export const Menu = styled.nav`
+    margin-top: 69px;
+
+  ul {
+    list-style: none;
+    line-height: 3em;
+    text-align: center;
+  }
+`;
+
+export const ButtonClient = styled.button`
+    width: 150px;
+    display: block;
+    margin: 2em auto 0;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 18px;
+    padding: 6px 0;
+    background-color: ${({theme}) => theme.red};
+    color: #FFF;
 `;
 
