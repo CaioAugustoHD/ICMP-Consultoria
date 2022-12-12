@@ -9,11 +9,16 @@ export const HeaderStyled = styled.header`
     top: 0;
     width: 100%;
     background-color: ${({theme}) => theme.body};
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 `;
 
 export const Menu = styled.nav`
     display: flex;
     gap: 3em;
+
+    @media (max-width: 985px) {
+        font-size: 0.9em;
+    }
 `;
 
 export const ButtonClient = styled.button`
@@ -25,4 +30,10 @@ export const ButtonClient = styled.button`
     padding: 6px 0;
     background-color: ${({theme}) => theme.red};
     color: #FFF;
+
+    @media (max-width: 985px) {
+        font-size: 0.9em;
+        width: 150px;
+        margin: 0 23px;
+    }
 `;

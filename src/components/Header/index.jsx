@@ -1,20 +1,27 @@
-import React from "react";
-import { HeaderStyled, Menu, ButtonClient } from "./style";
+import React, { useEffect, useState } from "react";
 
-import logo from "../../assets/logo.webp";
+import { HeaderDesktop } from "./HeaderDesktop";
+import { HeaderMobile } from "./HeaderMobile";
 
 export function Header(){
+
+    const [matches, setMatches] = useState(
+        window.matchMedia("(min-width: 900px)").matches
+      );
+
+      useEffect(() => {
+        window
+        .matchMedia("(min-width: 900px)")
+        .addEventListener('change', e => setMatches( e.matches ));
+      }, []);
+    
+
     return (
-        <HeaderStyled>
-            <img src={logo}/>
-
-            <Menu>
-                <p>Quem somos</p>
-                <p>Serviços</p>
-                <p>Contato</p>
-            </Menu>
-
-            <ButtonClient>Portal do cliente</ButtonClient>
-        </HeaderStyled>
+        <>
+            {matches 
+                ? <HeaderDesktop/> 
+                : <HeaderMobile/>
+            }
+        </>
     )
 }
