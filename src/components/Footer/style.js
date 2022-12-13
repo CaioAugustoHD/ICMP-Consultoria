@@ -13,10 +13,18 @@ export const FooterStyled = styled.footer`
         list-style: none;
         line-height: 2em;
     }
-`;
 
-export const Title = styled.h3`
-    
+    @media (max-width: 1075px) {
+        padding: 2em 2em 0.5em;
+
+        ul, span {
+            font-size: 0.9em;
+        }
+    }
+
+    @media (max-width: 785px) {
+
+    }
 `;
 
 export const SectionContact = styled.section`
@@ -29,17 +37,66 @@ export const SectionContact = styled.section`
     span:first-child {
         font-weight: 700;
         display: block;
-}
+    }
+
+    @media (max-width: 785px) {
+        width: 100%;
+
+        h3 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        div {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+    }
 `;
 
 export const SectionInstitutional = styled.section`
     /* border: 1px solid #FFF; */
     width: 25%;
+
+    @media (max-width: 785px) {
+        width: 100%;
+
+        h3 {
+            text-align: center;
+            margin-bottom: 12px;
+            margin-top: 35px;
+        }
+        
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12px;
+        }
+    }
 `;
 
 export const SectionServices = styled.section`
     /* border: 1px solid #FFF; */
     width: 25%;
+
+    @media (max-width: 785px) {
+        width: 100%;
+
+        h3 {
+            text-align: center;
+            margin-bottom: 12px;
+            margin-top: 35px;
+        }
+        
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 12px;
+        margin-bottom: 1em;
+        }
+    }
 
 `;
 

@@ -1,11 +1,11 @@
 import React from "react";
-import { Copyright, FooterStyled, SectionContact, SectionInstitutional, SectionServices, Title } from "./style";
+import { Copyright, FooterStyled, SectionContact, SectionInstitutional, SectionServices} from "./style";
 
 export function Footer(){
     return (
         <FooterStyled>
             <SectionContact>
-                <Title>Contato</Title>
+                <h3>Contato</h3>
                 <div>
                     <span>Endereço:</span>
                     <span>Av. Paulista, 1.765, 7º Andar, Bela Vista, São Paulo - SP</span>
@@ -28,7 +28,7 @@ export function Footer(){
             </SectionContact>
 
             <SectionInstitutional>
-                <Title>Institucional</Title>
+                <h3>Institucional</h3>
 
                 <ul>
                     <li>Sobre nós</li>
@@ -41,7 +41,7 @@ export function Footer(){
             </SectionInstitutional>
 
             <SectionServices>
-                <Title>Serviços</Title>
+                <h3>Serviços</h3>
                 <ul>
                     <li>Assessoria em TI</li>
                     <li>Consultoria em TI</li>
