@@ -1,13 +1,13 @@
 <h1 align="center">Novo site para ICMP Consultoria</h1>
 <h4 align="center">Página reformulada da ICMP Consultoria - Suporte remoto e presencial para TI, consultorias e projetos </h4>
-<h4 align="center">Feito com React.js</h4>
+<h4 align="center">Feito com React.js e Styled Components</h4>
 
  &#xa0;
 
 **<p align="center">Sumário</p>**
 <p align="center">
 <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
-<a href="#white_check_mark-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+<a href="#white_check_mark-melhorias">Melhorias</a> &#xa0; | &#xa0;
 <a href="#computer-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
 <a href="#hammer_and_wrench-serviços">Serviços</a>
 </p>
@@ -27,12 +27,12 @@
 
 &#xa0;
 
-## :white_check_mark: Funcionalidades
-Melhorias adicionada no site reformulado:
+## :white_check_mark: Melhorias
+Melhorias do site reformulado:
 
 ✔️ A logo e as cores do site continuam as mesmas;
 
-✔️ Praticamente todas as imagens e ícones foram reutilizadas;
+✔️ Praticamente todas as imagens e ícones foram reutilizados;
 
 ✔️ Novo design mais moderno e chamativo;
 
@@ -40,7 +40,7 @@ Melhorias adicionada no site reformulado:
 
 ✔️ Página totalmente responsiva; 
 
-✔️ Validação do formulário com uma melhor renderização e com mensagens de erros personalizadas;
+✔️ Validação do formulário com uma melhor renderização e com mensagens de erro personalizadas;
 
 ✔️ Todas as informações que estão contidas no site original.
 
@@ -74,19 +74,14 @@ Melhorias adicionada no site reformulado:
 &#xa0;
 
 ## :camera: Imagens
-**<p align="center">Exemplo de funcionamento:</p>**
+**<p align="center">Site em desktop:</p>**
 <div align="center">
-  <img src="src/assets/exemploprojeto.gif" alt="exemplo da aplicação em execução">
+  <img src="public/desktop.gif" alt="Site em desktop">
 </div>
 
-**<p align="center">Aplicação em desktop:</p>**
+**<p align="center">Site em dispositivo mobile:</p>**
 <div align="center">
-  <img src="src/assets/imgprojeto.png" alt="Aplicação em desktop">
-</div>
-
-**<p align="center">Aplicação em mobile:</p>**
-<div align="center">
-  <img src="src/assets/imgmobile.png" alt="Aplicação em mobile">
+  <img src="public/mobile.gif" alt="Site em dispositivo mobile">
 </div>
 
 
@@ -98,7 +93,7 @@ Para abrir o site, basta um navegador de sua preferência e conexão com interne
 &#xa0;
 
 ## :link: Links
-* Repositório: 
+* Repositório: https://github.com/CaioAugustoHD/ICMP-Consultoria
 * Deploy: https://icmpconsultoria.netlify.app/
 
 &#xa0;
