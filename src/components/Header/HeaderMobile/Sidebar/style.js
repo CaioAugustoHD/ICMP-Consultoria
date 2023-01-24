@@ -38,16 +38,6 @@ export const SidebarStyled = styled.div`
   }
 `;
 
-export const Menu = styled.nav`
-    margin-top: 69px;
-
-  ul {
-    list-style: none;
-    line-height: 3em;
-    text-align: center;
-  }
-`;
-
 export const ButtonClient = styled.button`
     width: 150px;
     display: block;

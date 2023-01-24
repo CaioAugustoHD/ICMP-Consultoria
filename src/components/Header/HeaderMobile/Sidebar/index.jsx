@@ -1,5 +1,6 @@
 import React from "react";
-import { ButtonClient, Menu, SidebarStyled } from "./style";
+import { Menu } from "../../Menu"
+import { ButtonClient, SidebarStyled } from "./style";
 
 import { FaTimes } from "react-icons/fa";
 
@@ -8,13 +9,7 @@ export function Sidebar({showSidebar}){
         <SidebarStyled>
             <FaTimes onClick={showSidebar}/>
 
-            <Menu>
-                <ul>
-                    <li>Quem somos</li>
-                    <li>Serviços</li>
-                    <li>Contato</li>
-                </ul>
-            </Menu>
+            <Menu display="mobileMenu"/>
 
             <ButtonClient>Portal do cliente</ButtonClient>
 

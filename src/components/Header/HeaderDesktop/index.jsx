@@ -1,5 +1,6 @@
 import React from "react";
-import { HeaderStyled, Menu, ButtonClient } from "./style";
+import { Menu } from "../Menu"
+import { HeaderStyled, ButtonClient } from "./style";
 
 import logo from "../../../assets/logo.webp";
 
@@ -8,11 +9,7 @@ export function HeaderDesktop(){
         <HeaderStyled>
             <img src={logo}/>
 
-            <Menu>
-                <p>Quem somos</p>
-                <p>Serviços</p>
-                <p>Contato</p>
-            </Menu>
+            <Menu display="desktopMenu"/>
 
             <ButtonClient>Portal do cliente</ButtonClient>
         </HeaderStyled>
