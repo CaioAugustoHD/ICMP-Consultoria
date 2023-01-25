@@ -6,6 +6,11 @@ export const MenuStyled = styled.div`
         list-style: none;
     }
 
+    a {
+        text-decoration: none;
+        color: ${({theme}) => theme.text}
+    }
+
     .desktopMenu {
         ul {
             display: flex;

@@ -4,7 +4,7 @@ import { ContactStyled, Title, Text } from "./style";
 
 export function Contact(){
     return (
-        <ContactStyled>
+        <ContactStyled id="contact">
             <Title>
                 Precisa de mais informações? <br/>
                 Fale com um especialista!

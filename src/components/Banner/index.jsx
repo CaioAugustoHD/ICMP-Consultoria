@@ -11,7 +11,7 @@ export function Banner(){
                 <div>
                     <Title>Vamos fazer uma <span>gestão em TI completa</span> para sua empresa</Title>
                     <Subtitle>Suporte remoto e presencial para TI, consultorias e projetos</Subtitle>
-                    <BotaoBanner>Solicite um orçamento</BotaoBanner>
+                    <BotaoBanner><a href="#contact">Solicite um orçamento</a></BotaoBanner>
                 </div>
             </TextBannerContainer>
 

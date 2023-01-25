@@ -75,9 +75,13 @@ export const BotaoBanner = styled.button`
     font-size: 1.2em;
     margin-top: 2em;
     background-color: ${({theme}) => theme.red};
-    color: #fff;
     border-radius: 20px;
     padding: 6px 17px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
 
     @media (max-width: 639px){
         font-size: 1em;

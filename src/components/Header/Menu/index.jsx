@@ -5,9 +5,9 @@ export function Menu({display}) {
         <MenuStyled>
             <nav className={display}>
                 <ul>
-                    <li>Quem somos</li>
-                    <li>Serviços</li>
-                    <li>Contato</li>
+                    <li><a>Quem somos</a></li>
+                    <li><a href="#contractedServices">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </MenuStyled>
