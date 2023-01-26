@@ -2,7 +2,6 @@ import styled from "styled-components";
 import banner from "../../assets/banner.jpg";
 
 export const BannerStyled = styled.main`
-    margin-top: 69px;
     height: 500px;
     background-image: url(${banner});
     background-position: center;
